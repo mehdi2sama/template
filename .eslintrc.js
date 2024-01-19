@@ -5,10 +5,10 @@ const path = require("path");
  */
 module.exports = {
   env: {
-    browser: false,
-    es2021: true,
+    browser: true,
+    es2021: false,
     mocha: true,
-    node: true,
+    node: false,
   },
   extends: ["plugin:prettier/recommended"],
   parser: "@typescript-eslint/parser",
